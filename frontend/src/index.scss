@@ -1,0 +1,61 @@
+@import '~bootstrap/scss/bootstrap';
+
+body {
+    color: #333;
+    background-color: #EBEDED;
+    font-family: 'Mulish','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.42857143;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper-page {
+
+    width: 100%;
+
+    .container-page {
+        max-width: 1170px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 12px;
+        padding-right: 12px;
+        box-sizing: border-box;
+    }
+
+}
+
+.bg-body-tertiary {
+    background-color: #ff3c3c !important;
+}
+
+.title-content {
+
+    margin: 30px 0;
+
+    h2 {
+        display: inline-block;
+    }
+
+    .btn {
+        float: right;
+    }
+
+    .dropdown {
+        float: right;
+        margin-right: 10px
+    }
+}
+
+.table-tm tr:hover {
+    
+    cursor: pointer;
+
+    td {
+        background-color: #eb5b5b;
+        color: white;
+    }
+
+}
